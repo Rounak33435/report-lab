@@ -1,0 +1,25 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper, margin=1in]{geometry}
+\usepackage{caption}
+\title{Student Marks Table}
+\author{}
+\date{}
+\begin{document}
+\maketitle
+\section*{Student Marks Report}
+\begin{table}[h!]
+\centering
+\caption{Student Marks in Subjects}
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+\textbf{S.No} & \textbf{USN} & \textbf{Student Name} & \textbf{Subject1} & \textbf{Subject2} & \textbf{Subject3} \\
+\hline
+1 & 4XX22XXX001 & Name1 & 85 & 90 & 88 \\
+\hline
+2 & 4XX22XXX002 & Name2 & 78 & 65 & 74 \\
+\hline
+3 & 4XX22XXX003 & Name3 & 67 & 55 & 59 \\
+\hline
+\end{tabular}
+\end{table}
+\end{document}
